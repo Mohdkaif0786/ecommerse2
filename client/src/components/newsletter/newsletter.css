@@ -1,0 +1,83 @@
+.newsletter-section{
+    width:100%;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url('../../assets/newsletter-bg.jpeg');
+    background-position:center;
+}
+.newsletter-content{
+   width:fit-content;
+    margin-bottom:20px;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    font-weight:500;
+    align-items:center;
+}
+.newsletter-content h2{
+    font-weight:500;
+    /* color:grey; */
+    /* border:1px solid red; */
+    color:rgba(0,0,0,0.5);
+}
+.newsletter-content h1{
+    font-weight:600;
+    text-align:center;
+    margin:10px 0px;
+    /* color:grey; */
+}
+.newsletter-subcribe-box{
+    width:430px;
+    /* border:1px solid red; */
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+
+}
+.newsletter-subcribe-box input{
+    width: calc(100% - 120px);
+    /* border:1px solid red; */
+    padding:10px ;
+    font-size:16px;
+    border:1px solid rgba(0,0,0,0.2);
+    outline:none;
+}
+.newsletter-subcribe-box button{
+    width:130px;
+    padding:10px ;
+    font-weight:600;
+    font-size:17px;
+    border:none;
+    outline:none;
+    color:white;
+    background-color: rgb(212,45,210);
+    border-bottom:3px solid rgb(212,45,223);
+}
+.newsletter-para{
+    color:rgba(0,0,0,0.5);
+    margin-bottom:20px;
+}
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:13px;
+}
+.social-icon{
+    font-size:17px;
+    font-weight:700;
+    width:25px;
+    padding:1.5px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:25px;
+    background-color:rgba(0,0,0,0.8);
+    color:white;    
+    /* border:1px solid red; */
+}
+.social-icon-facebook{
+    font-size:19px;
+}

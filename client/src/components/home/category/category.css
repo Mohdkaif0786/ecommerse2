@@ -1,0 +1,28 @@
+.category-section{
+    width:100%;
+
+    /* border:2px solid  blue; */
+    margin:50px 0px ;
+
+}
+.categories{
+    display:flex;
+    cursor:pointer;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.category{
+    width:calc(25% - 10px);
+    overflow:hidden;
+    transition: all 0.4s ease;
+}
+.category img{
+    width:100%;
+    display:block;
+    height:auto;
+}
+.category:hover >img{
+    transform:scale(1.2);
+}

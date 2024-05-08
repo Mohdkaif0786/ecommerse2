@@ -1,0 +1,104 @@
+.search-model{
+    width:100%;
+    height:100%;
+    z-index:10000000;
+    position:fixed;
+    overflow-y: auto;
+    bottom:0px;
+    /* border:1px solid yellow; */
+    background-color: white;
+    left: 0px;
+   transform: translateY(100%);
+   animation: slideSearchModel 2s ease forwards;
+}
+@keyframes slideSearchModel {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.search-header{
+    width:100%;
+    padding: 10px 15px;
+    /* border:1px solid red; */
+    display:flex;
+    align-items: center;
+    gap:20px;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.search-header input{
+    width:calc(100% - 40px);
+    /* height: 40px; */
+    outline:none;
+    border:none;
+    text-align: center;
+    font-size: 40px;
+    background-color: transparent;
+    color:rgba(0,0,0,0.7);
+    /* border:1px solid red; */
+}
+.search-header input::placeholder{
+    text-transform: uppercase;
+    /* color:#212121; */
+    color:rgba(0,0,0,0.7);
+}
+.search-header > .close-btn{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.search-result-content{
+    max-width: 800px;
+    overflow-y: auto;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+.search-item{
+  width:100%;
+  margin:10px auto;
+  display:flex;
+  cursor: pointer;
+  align-items: center;
+  gap:10px;
+  padding:10px 0px;
+  /* border:1px solid red; */
+  border-bottom: 1px solid rgba(0,0,0,0.05);  
+}
+.search-item:hover{
+    background-color: rgba(0,0,0,0.02);
+}
+.search-item-image{
+    width:60px;height:60px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: rgba(0,0,0,0.05);
+}
+.search-item-image img{
+    width:100%;
+    height:auto;
+    display: block;
+    /* flex-shrink:; */
+}
+.search-item-detail{
+    overflow: hidden;
+}
+.sch-prod-name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1  ;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  display:block;
+  overflow: hidden;
+}
+.sch-prod-description{
+    font-size:13px;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  display:block;
+  overflow: hidden;
+    line-height: 1;
+    color:rgba(0,0,0,0.5);
+}

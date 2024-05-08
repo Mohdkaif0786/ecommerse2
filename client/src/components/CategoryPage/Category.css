@@ -1,0 +1,20 @@
+.category-main-content{
+    width:100%;
+    /* border:10px solid black; */
+    margin:30px 0px;
+}
+.category-title{
+    font-size:34px;
+    text-transform:capitalize;
+    font-weight:500;
+    color:rgba(0,0,0,0.8); 
+    /* border:2px solid red; */
+    margin-bottom:0px;
+}
+.products-section{
+    margin:20px 0px;
+    /* border:1px solid cyan; */
+}
+.sigle-product{
+    
+}

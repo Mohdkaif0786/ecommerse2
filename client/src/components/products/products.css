@@ -1,0 +1,30 @@
+.products-section{
+    width:100%;
+    margin:70px 0px;
+    /* border:1px solid cyan; */
+}
+.products{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+.sec-head{
+    font-weight:600;
+    margin-bottom:25px;
+    font-size:24px;
+    text-transform:uppercase;
+    /* border:1px solid red; */
+    position:relative;
+}
+.sec-head::after{
+    content:"";
+    /* display:block; */
+    position:absolute;
+    bottom:-3px;
+    left:0px;
+    width:50px;
+    height:3px;
+    background-color:rgb(212,45,210);
+}
